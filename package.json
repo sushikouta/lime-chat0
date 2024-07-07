@@ -1,0 +1,46 @@
+{
+	"name": "lime-chat2",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev --host 0.0.0.0",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/eslint": "^8.56.7",
+		"@types/js-cookie": "^3.0.6",
+		"autoprefixer": "^10.4.19",
+		"bulma": "^1.0.1",
+		"eslint": "^9.0.0",
+		"eslint-plugin-svelte": "^2.36.0",
+		"globals": "^15.0.0",
+		"postcss": "^8.4.39",
+		"sass": "^1.77.6",
+		"svelte": "^4.2.7",
+		"svelte-check": "^3.6.0",
+		"svelte-preprocess": "^6.0.1",
+		"tailwindcss": "^3.4.4",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"typescript-eslint": "^8.0.0-alpha.20",
+		"vite": "^5.0.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.5.2",
+		"@types/pg": "^8.11.6",
+		"axios": "^1.7.2",
+		"dotenv": "^16.4.5",
+		"js-cookie": "^3.0.5",
+		"pg": "^8.12.0",
+		"socket.io": "^4.7.5",
+		"socket.io-client": "^4.7.5"
+	}
+}
